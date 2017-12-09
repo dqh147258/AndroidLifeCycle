@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidLifeCycle</string>
+    <string name="invalidate_view">Invalidate View</string>
+    <string name="request_view_layout">Request View Layout</string>
+    <string name="invalidate_view_group">Invalidate ViewGroup</string>
+    <string name="request_view_group_layout">Request ViewGroup Layout</string>
+</resources>

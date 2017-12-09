@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/fragment_menu_view_invalidate"
+        android:title="@string/invalidate_view"
+        />
+    <item android:id="@+id/fragment_menu_view_request_layout"
+        android:title="@string/request_view_layout"
+        />
+    <item android:id="@+id/fragment_menu_view_group_invalidate"
+        android:title="@string/invalidate_view_group"
+        />
+    <item android:id="@+id/fragment_menu_view_group_request_layout"
+        android:title="@string/request_view_group_layout"
+        />
+</menu>
