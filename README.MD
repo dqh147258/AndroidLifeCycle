@@ -1,5 +1,7 @@
 
 # Android 各类生命周期详解
+## 目录
+[TOC]
 ## Activity的生命周期
 ### 创建
 ```java
@@ -918,5 +920,6 @@ MyView.onLayout(MyView.java:182)
 - 销毁的日志有一些KeyEvent的触发是由于点了Back键,希望不会造成误解
 - 在日志中可以发现onWindowFocusChanged这个方法是显示前的最后一个方法,可以重写这个方法,加入一些需要显示时触发的代码
 - ViewGroup和View的生命周期大部分都相同,但是仔细看的话会发现ViewGroup的onDraw方法没有触发,这是一个坑,在ViewGroup没有设置背景等属性时onDraw是不会触发的,故而不要轻易在ViewGroup的onDraw中添加代码,可以选择在ViewGroup的dispatchDraw中添加作为代替
+
 ## 附录
 #### [测试源代码](https://github.com/dqh147258/AndroidLifeCycle)
